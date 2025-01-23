@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5ff;
+}
+.resume-wrapper{
+    
+}
+.resume-wrapper .resume-container{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px auto;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
+.left-section{
+    background-color: #132130;
+    /* min-height: 100vh; */
+    padding: 40px;
+}
+.left-section .profile-section {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+.left-section .profile-section .profile-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.left-section .profile-section .profile-image img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+.left-section .profile-section h2{
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+.left-section .profile-section p{
+    font-size: 18px;
+    color: #667285;
+    text-align: center;
+}
+
+ .left-section .contact-section,.edu-section ,.lang-section{
+    margin-top: 30px;
+ }
+ .left-section .contact-section h3,.edu-section h3,.lang-section h3{
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+ }
+ .left-section .contact-section .contact-info-boxes,.edu-section .edu-boxes,.lang-section .lang-boxes ,.right-section .exp-section .exp-boxes ,.skilss-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+ }
+ .left-section .contact-section .contact-info-boxes .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .left-section .contact-section .contact-info-boxes .contact-info i{
+    color: #0077be;
+    font-size: 20px;
+ }
+ .left-section .contact-section .contact-info-boxes .contact-info p{
+    color: #667285;
+    font-size: 20px;
+ }
+ .edu-section  .edu-box h4{
+    color: #0077be;
+    font-size: 20px;
+ }
+ .edu-section  .edu-box h5{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+ }
+ .edu-section  .edu-box p{
+    color: #667285;
+    font-size: 18px;
+ }
+ .lang-section  .lang-boxes .lang-box .title-percent, .skills-section .skilss-boxes .skill-box .title-percent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+ }
+ .lang-section  .lang-boxes .lang-box .title-percent p ,.skills-section .skilss-boxes .skill-box .title-percent h5{
+    color: #0077be;
+    font-size: 18px;
+ }
+ .lang-section  .lang-boxes .lang-box .title-percent span,.skills-section .skilss-boxes .skill-box .title-percent p{
+    color: #667285;
+    font-size: 18px;
+ }
+ .lang-section .lang-boxes .lang-box .lang-outer-bar,.skills-section .skilss-boxes .skill-box .outer-bar{
+    height: 10px;
+    width: 100%;
+    background-color: #667285;
+ }
+ .lang-section .lang-boxes .lang-box .lang-outer-bar .lang-inner-bar,.skills-section .skilss-boxes .skill-box .inner-bar{
+    height: 100%;
+    width: 100%;
+    background-color: #bababa;
+ }
+ .lang-section .lang-boxes .lang-box .lang-outer-bar .lang-inner-bar.hindi{
+    height: 100%;
+    width: 80%;
+    background-color: #bababa;
+ }
+ .lang-section .lang-boxes .lang-box .lang-outer-bar .lang-inner-bar.english{
+    height: 100%;
+    width: 60%;
+    background-color: #bababa;
+ }
+.right-section{
+    background-color: #ffff;
+    /* min-height: 100vh; */
+    padding: 40px;
+}
+.right-section .about-section h3,.right-section .exp-section h3,.skills-section h3,.intrests-section h3{
+    font-size: 32px;
+    color: #222;
+}
+.right-section .about-section p{
+    font-size: 18px;
+}
+.right-section .exp-section ,.skills-section {
+    margin-top: 32px;
+}
+.right-section .exp-section .exp-boxes ,.skilss-boxes{
+    margin-top: 20px;
+}
+.right-section .exp-section .exp-boxes .exp-box{
+    display: flex;
+
+}
+.right-section .exp-section .exp-boxes .exp-box .box-left{
+    min-width: 160px;
+}
+.right-section .exp-section .exp-boxes .exp-box .box-left h4{
+    font-size: 18px;
+    color: #667285;
+    text-transform: uppercase;
+}
+.right-section .exp-section .exp-boxes .exp-box .box-left p{
+    font-size: 15px;
+    color: #667285;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.right-section .exp-section .exp-boxes .box-right h5{
+    font-size: 22px;
+    color: #0077be;
+
+}
+
+.right-section .exp-section .exp-boxes .box-right p{
+    font-size: 14px;
+}
+
+.skills-section .skilss-boxes .skill-box .title-percent h5{
+    text-transform: uppercase;
+}
+.skills-section .skilss-boxes .skill-box .inner-bar.html{
+    width: 90%;
+ }
+
+ .skills-section .skilss-boxes .skill-box .inner-bar.css{
+    width: 80%;
+ }
+
+ .skills-section .skilss-boxes .skill-box .inner-bar.js{
+    width: 80%;
+ }
+
+
+ .skills-section .skilss-boxes .skill-box .inner-bar.nodejs{
+    width: 60%;
+ }
+
+
+ .skills-section .skilss-boxes .skill-box .inner-bar.react{
+    width: 90%;
+ }
+
+
+ .skills-section .skilss-boxes .skill-box .inner-bar.mongodb{
+    width: 70%;
+ }
+
+ .intrests-section{
+    margin-top: 32px;
+ }
+ .intrests-section .intrests-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+ }
+ .intrests-section .intrests-boxes .int-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .intrests-section .intrests-boxes .int-box i{
+    font-size: 20px;
+    color: #0077be;
+ }
+ .intrests-section .intrests-boxes .int-box p{
+    font-size: 18px;
+    color: #667285;
+ }
+
+ @media screen and (max-width:1000px){
+    .resume-wrapper .resume-container{
+        width: unset;
+        grid-template-columns: 1fr;
+    }
+    .exp-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .intrests-section .intrests-boxes{
+        grid-template-columns: 1fr;
+        gap: 10px;
+     }
+
+ }
