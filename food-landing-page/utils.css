@@ -1,0 +1,42 @@
+.layout{
+    width: 1180px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.order-now-btn{
+    padding: 0 16px;
+    height: 44px;
+    background-color: #0077be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    transition:all 0.3s;
+}
+.order-now-btn:hover{
+    background-color: #074569;
+}
+
+.p-60{
+    padding: 60px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 20px;
+}
+
+.title{
+    font-size: 45px;
+    color: #1e1e1e;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
